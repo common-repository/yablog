@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="256" height="256" viewBox="0, 0, 256, 256">
+  <defs>
+    <filter id="Shadow_1">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2.5"/>
+      <feOffset dx="0" dy="2" result="offsetblur"/>
+      <feFlood flood-color="#000000"/>
+      <feComposite in2="offsetblur" operator="in"/>
+    </filter>
+  </defs>
+  <g id="Layer_1">
+    <g>
+      <g>
+        <path d="M190.936,20.357 L192.091,22.357 L252.218,126.5 L253.373,128.5 L252.218,130.5 L192.091,234.643 L190.936,236.643 L66.063,236.643 L64.909,234.643 L4.782,130.5 L3.627,128.5 L4.782,126.5 L64.909,22.357 L66.063,20.357 L190.936,20.357 z" filter="url(#Shadow_1)" fill="rgba(0,0,0,0.647)"/>
+        <path d="M68.373,232.643 L8.246,128.5 L68.373,24.357 L188.627,24.357 L248.754,128.5 L188.627,232.643 z" fill="#ADC5F5"/>
+        <path d="M68.373,232.643 L8.246,128.5 L68.373,24.357 L188.627,24.357 L248.754,128.5 L188.627,232.643 z" fill-opacity="0" stroke="#F3ECEC" stroke-width="8"/>
+      </g>
+      <text transform="matrix(1, 0, 0, 1, 105.68, 215)">
+        <tspan x="-93.9" y="-18.5" font-family="Zapfino" font-size="120" fill="#1271BF">Ya</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
